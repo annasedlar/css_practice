@@ -1,0 +1,22 @@
+div{
+	perspective: 200px;
+	perspective-origin: 50%, 50%; 
+}
+
+#div1{
+	width: 50px;
+	background-color: blue;
+	height: 50px;
+	overflow: hidden;
+	transform: rotateZ(30deg);
+/* 	transform: translateZ(1em); */
+}
+
+#div2{
+	width: 50px;
+	background-color: blue;
+	height: 50px;
+	overflow: hidden;
+	transform: rotateX(60deg) rotateZ(-45deg);
+
+}
